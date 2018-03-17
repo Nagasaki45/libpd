@@ -109,6 +109,7 @@ setup(name='pypdlib',
                     '../pure-data/extra/fiddle~/fiddle~.c', \
                     '../pure-data/extra/loop~/loop~.c', \
                     '../pure-data/extra/lrshift~/lrshift~.c', \
+                    '../pure-data/extra/percentile/percentile.c', \
                     '../pure-data/extra/pique/pique.c', \
                     '../pure-data/extra/sigmund~/sigmund~.c', \
                     '../pure-data/extra/stdout/stdout.c'

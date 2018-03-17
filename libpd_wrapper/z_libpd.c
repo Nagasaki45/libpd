@@ -44,6 +44,7 @@ int sys_startgui(const char *libdir);
   void fiddle_tilde_setup();
   void loop_tilde_setup();
   void lrshift_tilde_setup();
+  void percentile_setup();
   void pique_setup();
   void sigmund_tilde_setup();
   void stdout_setup();
@@ -95,6 +96,7 @@ int libpd_init(void) {
   fiddle_tilde_setup();
   loop_tilde_setup();
   lrshift_tilde_setup();
+  percentile_setup();
   pique_setup();
   sigmund_tilde_setup();
   stdout_setup();
